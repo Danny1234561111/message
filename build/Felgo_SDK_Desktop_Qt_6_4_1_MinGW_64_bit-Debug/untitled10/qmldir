@@ -1,0 +1,5 @@
+module untitled10
+typeinfo appuntitled10.qmltypes
+prefer :/
+MyDelegate 1.0 qml/MyDelegate.qml
+
