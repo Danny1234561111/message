@@ -37,10 +37,12 @@ ApplicationWindow {
     Row {
         spacing: 10
         anchors.bottom: parent.bottom
-
+        width: parent.width
         // Окно ввода с фоном
         Item {
-            width: 200
+            id: hah
+            anchors.bottom: parent.bottom
+            width: parent.width-100
             height: 30
 
             TextInput {
